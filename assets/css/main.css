@@ -1959,6 +1959,7 @@ ul.icons li .icon:before {
 ul.major-icons {
 	list-style: none;
 	padding-left: 0;
+    margin-top: 10vh;
 }
 ul.major-icons li{
 	display: inline-block;
@@ -1985,8 +1986,69 @@ ul.major-icons li .icon:before {
 	line-height: inherit;
 }
 i.fab {
-    font-size: 4em;
+	font-size: 4em;
+	transition: 0.3s;
 }
+
+/* HTML5 */
+i.fab.fa-html5 {
+    color: #E54B20;
+}
+i.fab.fa-css3-alt{
+	color:#0070B9;
+}
+i.fab.fa-js{
+	color:#F8E018;
+}
+i.fab.fa-react{
+	color:#61DAFB;
+}
+i.fab.fa-node{
+	color:#68A063;
+}
+i.fab.fa-sass {
+    color: #cd6799;
+}
+i.fab.fa-gulp{
+	color:#DA4648;	
+}
+i.fab.fa-wordpress-simple{
+	color:#464646;
+}
+i.fab.fa-trello{
+	color:#0079BF;
+}
+/* Icons Hover */
+i.fab.fa-html5:hover,
+i.fab.fa-css3-alt:hover,
+i.fab.fa-js:hover,
+i.fab.fa-react:hover,
+i.fab.fa-node:hover,
+i.fab.fa-sass:hover,
+i.fab.fa-gulp:hover,
+i.fab.fa-wordpress-simple:hover,
+i.fab.fa-trello:hover{
+	cursor: 💯;
+	color: #fff;
+	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+@keyframes shake {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
+} 
 
 /* Table */
 
