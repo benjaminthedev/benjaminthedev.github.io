@@ -2186,7 +2186,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed;
 	/* background-image: url("images/overlay1.png"), url("../../images/header.jpg"); */
-	background-image: url("images/overlay1.png"), url("../../images/bg01.jpg");
+	background-image: url("images/overlay1.png"), url("../../images/bg01black.jpg");
 	background-size: auto, cover;
 }
 .main.style2 a {
