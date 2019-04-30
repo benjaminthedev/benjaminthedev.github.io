@@ -1,6 +1,8 @@
 (function($) {
 	console.log('Welcome to BenjaminTheDev Portfolio');
 
+	
+
 	var	$window = $(window),
 		$body = $('body');
 
