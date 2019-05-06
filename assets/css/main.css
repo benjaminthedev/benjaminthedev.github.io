@@ -1877,15 +1877,17 @@ ul.actions.special {
 ul.actions.special li:first-child {
 	padding-left: 0;
 }
-ul.actions.stacked {
+ul.actions.stacked,
+ul.actions.special.dir-column {
 	-moz-flex-direction: column;
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
 	margin-left: 0;
 }
-ul.actions.stacked li {
-	padding: 1.3em 0 0 0;
+ul.actions.stacked li,
+ul.actions.special.dir-column li {
+	padding: 0.8em 0 0 0;
 }
 ul.actions.stacked li:first-child {
 	padding-top: 0;
