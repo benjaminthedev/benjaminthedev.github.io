@@ -2037,7 +2037,16 @@ i.fab.fa-node:hover,
 i.fab.fa-sass:hover,
 i.fab.fa-gulp:hover,
 i.fab.fa-wordpress-simple:hover,
-i.fab.fa-trello:hover{
+i.fab.fa-trello:hover,
+i.fab.fa-grunt:hover,
+i.fab.fa-php:hover,
+i.fab.fa-bootstrap:hover,
+i.fab.fa-npm:hover,
+i.fab.fa-yarn:hover,
+i.fab.fa-adobe:hover,
+i.fab.fa-github:hover,
+i.fab.fa-codepen:hover,
+i.fab.fa-less:hover{
 	cursor: 💯;
 	color: #fff;
 	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
@@ -2465,6 +2474,9 @@ body.is-preload #header:after {
 	border-left: 0;
 	margin-left: 0;
 	padding: 0;
+}
+.course-link{
+	margin-top:20px; 
 }
 /* XLarge */
 
