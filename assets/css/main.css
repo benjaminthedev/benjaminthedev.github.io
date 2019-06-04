@@ -2516,6 +2516,9 @@ body.is-preload #header:after {
 	.main.style2 {
 		background-attachment: scroll;
 	}
+	header.major.core-skills {
+		margin-top: 3.2em;
+	}
 	/* Header */
 	#header {
 		padding: 5em 0 5em 0;
