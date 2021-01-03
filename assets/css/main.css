@@ -2484,6 +2484,20 @@ body.is-preload #header:after {
 .course-link{
 	margin-top:20px; 
 }
+
+
+
+/* New 2021 Filter */
+.filter__section ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+li.active {
+    background-color: rgba(144, 144, 144, 0.075);
+}
+
+
 /* XLarge */
 
 @media screen and (max-width: 1680px) {
@@ -2542,6 +2556,15 @@ body.is-preload #header:after {
 /* Medium */
 
 @media screen and (max-width: 980px) {
+
+	.filter__section ul{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		width: 50vw;
+		margin: 0 auto;
+	}
+
 	/* List */
 	ul.major-icons li {
 		padding: 2em;
@@ -2627,6 +2650,21 @@ body.is-preload #header:after {
 	#footer {
 		padding: 3em 1.5em 3em 1.5em;
 	}
+	.filter__section ul{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		width: 80vw;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	ul.major-icons {
+		display: none;
+	}
+	a.button.scrolly {
+		width: 50vw;
+		margin-bottom: 20px;
+	}
 }
 /* XSmall */
 
@@ -2662,6 +2700,7 @@ body.is-preload #header:after {
 	#footer .copyright li:first-child {
 		margin-top: 0;
 	}
+
 }
 /* XXSmall */
 
